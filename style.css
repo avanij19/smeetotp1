@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image:url("edu.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.form {
+    width: 400px;
+    border-radius: 5px;
+    /* height:fit-content;  */
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border: none;
+}
+
+label {
+    display: block;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+
+#im{
+   margin-left: 170px;
+}
+
+input {
+    width: 100%;
+    padding: 8px 5px;
+
+    background-color: black;
+    color: white;
+    z-index: -1;
+    opacity: 0.8;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+button {
+    border: none;
+    background: linear-gradient(grey,white);
+    width: 100px;
+    padding: 10px 8px;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 9px 0px;
+    margin-left:138px;
+}
+
+button:hover {
+    background: linear-gradient(lightblue,rgb(0, 4, 255));
+    color: black;
+  }
+
+p {
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color:aliceblue;
+}
